@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { CardGroup, Card, } from 'react-bootstrap'
+import { CardGroup, Card,Container,Navbar } from 'react-bootstrap'
 import TwoSectionIcon1 from '../images/TwoSectionIcon1.svg'
 import TwoSectionIcon2 from '../images/TwoSectionIcon2.svg'
 import TwoSectionIcon3 from '../images/TwoSectionIcon3.svg'
@@ -74,6 +74,17 @@ export default class TwoSection extends Component {
                         </Card.Body>
                     </Card>
                 </CardGroup>
+                <Navbar style={{
+                     backgroundColor: '#B2DFDB',
+                     marginTop:'10%'
+                     }}>
+                    <Container >
+                        <Navbar.Brand href="#home"></Navbar.Brand>
+                        <Navbar.Toggle />
+                        <Navbar.Collapse className="justify-content-end">
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
             </div>
         )
     }
