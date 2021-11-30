@@ -2,14 +2,14 @@ import './App.css';
 
 import React, { Component } from 'react'
 import NavBar from './Component/NavBar';
-import FirstCard from './Component/FirstCard';
+import OneSection from './Component/OneSection';
 
 export default class App extends Component {
   render() {
     return (
       <div>
         <NavBar />
-        <FirstCard />
+        <OneSection />
       </div>
     )
   }
