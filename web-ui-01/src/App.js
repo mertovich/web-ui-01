@@ -4,6 +4,7 @@ import React, { Component } from 'react'
 import NavBar from './Component/NavBar';
 import OneSection from './Component/OneSection';
 import TwoSection from './Component/TwoSection'
+import ThirdSection from './Component/ThirdSection'
 
 export default class App extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class App extends Component {
         <NavBar />
         <OneSection />
         <TwoSection />
+        <ThirdSection />
       </div>
     )
   }
