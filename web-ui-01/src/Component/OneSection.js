@@ -4,7 +4,7 @@ import { Row, Button } from 'react-bootstrap'
 import ImageFirstCard from '../images/ImageFirstCard.svg'
 import { Navbar } from 'react-bootstrap'
 
-export default class FirstCard extends Component {
+export default class OneSection extends Component {
     render() {
         return (
             <div>
