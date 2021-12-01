@@ -20,7 +20,7 @@ export default class NavBar extends Component {
                                     color:'grey',borderRadius:'20px',
                                     borderColor:'#E5FFFF'
                                     }}>
-                                    Basket <img src={BasketIcon} style={{
+                                    <Link to='basket' style={{textDecoration:'none',color:'grey'}}>Basket</Link> <img src={BasketIcon} style={{
                                         marginRight:'10px',
                                         marginLeft: '10px',
                                     }}></img>
@@ -43,7 +43,7 @@ export default class NavBar extends Component {
                                     paddingLeft:'20px',
                                     paddingRight:'20px'
                                     }}>
-                                    Register
+                                    <Link to='register' style={{textDecoration:'none',color:'grey'}}>Register</Link>
                                 </Button>
                             </Navbar.Text>
                         </Navbar.Collapse>
