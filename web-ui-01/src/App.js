@@ -1,19 +1,18 @@
 import './App.css';
 
 import React, { Component } from 'react'
-import NavBar from './Component/NavBar';
-import OneSection from './Component/OneSection';
-import TwoSection from './Component/TwoSection'
-import ThirdSection from './Component/ThirdSection'
+import { Routes, Route } from 'react-router-dom'
+import Home from './Pages/Home';
+import Login from './Pages/Login';
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
-        <OneSection />
-        <TwoSection />
-        <ThirdSection />
+         <Routes>
+          <Route exact path='/' element={<Home/>}/>
+          <Route exact path='login' element={<Login/>}/>
+        </Routes>
       </div>
     )
   }

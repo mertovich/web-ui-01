@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container } from 'reactstrap'
 import { Row, Button } from 'react-bootstrap'
-import ImageFirstCard from '../images/ImageFirstCard.svg'
+import ImageFirstCard from '../../../images/ImageFirstCard.svg'
 import { Navbar } from 'react-bootstrap'
 
 export default class OneSection extends Component {

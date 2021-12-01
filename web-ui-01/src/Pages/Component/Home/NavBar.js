@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Container, Navbar } from 'react-bootstrap'
 import { Button } from 'reactstrap'
-import BasketIcon from '../images/BasketIcon.svg'
+import BasketIcon from '../../../images/BasketIcon.svg'
+import {Link} from 'react-router-dom'
 
 
 export default class NavBar extends Component {
@@ -33,7 +34,7 @@ export default class NavBar extends Component {
                                     marginLeft:'20px',
                                     marginRight:'20px'
                                     }}>
-                                    Login
+                                    <Link to='login' style={{textDecoration:'none',color:'grey'}}>Login</Link>
                                 </Button>
                                 <Button style={
                                     {backgroundColor:'#E5FFFF',
