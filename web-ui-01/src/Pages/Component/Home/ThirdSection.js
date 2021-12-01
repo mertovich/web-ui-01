@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { CardGroup, Card, Navbar, Container, Button } from 'react-bootstrap'
-import ThirdSectionIcon from '../images/ThirdSectionIcon.svg'
+import ThirdSectionIcon from '../../../images/ThirdSectionIcon.svg'
 
 export default class ThirdSection extends Component {
     render() {
@@ -9,7 +9,7 @@ export default class ThirdSection extends Component {
                 <CardGroup style={{
                     padding: '20px'
                 }}>
-                    <Card  className="text-center" style={{
+                    <Card className="text-center" style={{
                         marginTop: '10%',
                         marginLeft: '10%',
                         marginRight: '10%',
@@ -24,7 +24,7 @@ export default class ThirdSection extends Component {
                         }}></img>
                         <Card.Body>
                             <Card.Title>Card title</Card.Title>
-                            <Card.Text style={{ color: 'grey', textAlign: 'center',paddingTop:'10px' }}>
+                            <Card.Text style={{ color: 'grey', textAlign: 'center', paddingTop: '10px' }}>
                                 This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.
@@ -37,7 +37,7 @@ export default class ThirdSection extends Component {
                                     backgroundColor: '#B2DFDB',
                                     color: 'grey', borderRadius: '20px',
                                     borderColor: '#B2DFDB',
-                                    marginTop:'10%',
+                                    marginTop: '10%',
                                     paddingLeft: '20px',
                                     paddingRight: '20px'
                                 }}>
@@ -60,7 +60,7 @@ export default class ThirdSection extends Component {
                         }}></img>
                         <Card.Body>
                             <Card.Title>Card title</Card.Title>
-                            <Card.Text style={{ color: 'grey', textAlign: 'center',paddingTop:'10px' }}>
+                            <Card.Text style={{ color: 'grey', textAlign: 'center', paddingTop: '10px' }}>
                                 This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.
@@ -73,7 +73,7 @@ export default class ThirdSection extends Component {
                                     backgroundColor: '#B2DFDB',
                                     color: 'grey', borderRadius: '20px',
                                     borderColor: '#B2DFDB',
-                                    marginTop:'10%',
+                                    marginTop: '10%',
                                     paddingLeft: '20px',
                                     paddingRight: '20px',
                                 }}>

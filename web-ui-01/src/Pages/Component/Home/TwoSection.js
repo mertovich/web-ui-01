@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { CardGroup, Card,Container,Navbar } from 'react-bootstrap'
-import TwoSectionIcon1 from '../images/TwoSectionIcon1.svg'
-import TwoSectionIcon2 from '../images/TwoSectionIcon2.svg'
-import TwoSectionIcon3 from '../images/TwoSectionIcon3.svg'
+import TwoSectionIcon1 from '../../../images/TwoSectionIcon1.svg'
+import TwoSectionIcon2 from '../../../images/TwoSectionIcon2.svg'
+import TwoSectionIcon3 from '../../../images/TwoSectionIcon3.svg'
 
 
 export default class TwoSection extends Component {
