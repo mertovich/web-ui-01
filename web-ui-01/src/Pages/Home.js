@@ -8,10 +8,11 @@ export default class Home extends Component {
     render() {
         return (
             <div>
+
                 <NavBar/>
                 <OneSection/>
                 <TwoSection/>
-                <ThirdSection/>
+                <ThirdSection prodoctList={this.props.prodoctList} addToCart={this.props.addToCart}/>
             </div>
         )
     }
